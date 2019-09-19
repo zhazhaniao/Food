@@ -1,0 +1,83 @@
+.jarallax {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/* 导航条 */
+.header-top-info {
+  padding: 2em 0 0 0;
+}
+.navbar-default {
+  background: none;
+  border: none;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-collapse {
+  padding: 0;
+  box-shadow: none;
+}
+
+.navbar-nav {
+  float: none;
+  text-align: center;
+  background: none;
+  margin: 0;
+}
+
+.navbar-nav > li > a {
+  font-size: 1em;
+  padding: 0;
+  margin: 0 1em;
+}
+
+/* 各个区域的间隔 */
+.welcome,
+.about,
+.services,
+.gallery,
+.news,
+.team,
+.testimonial,
+.contact {
+  padding: 4em 0;
+}
+
+/* 公用 */
+.w3-welcome-heading h2,
+.w3-welcome-heading h3 {
+  color: #212121;
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Catamaran", sans-serif;
+}
+.w3l-welcome-info,
+.w3-about-grids,
+.services-grids,
+.agileinfo-gallery,
+.agile-news-grids,
+.agile_team_grids,
+.agile-contact-grids {
+  margin: 4em 0 0 0;
+}
+img.zoom-img {
+  transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
+}
+img.zoom-img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 750ms;
+  overflow: hidden;
+}
